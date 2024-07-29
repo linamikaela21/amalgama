@@ -55,5 +55,7 @@ name: 'books',
 ************************************************
 Demore un poco mas de 2 horas porque mockee algo de data, agregue eslint, y queria hacer los hooks pero no queria excederme mucho mas del tiempo permitido.
 Si hubiera tenido mas tiempo hubiera tipado mejor algunas funciones.
-Habria agregado estilos y hecho responsive
-Hubiera creado las stores detalladas en el punto dos
+Habria agregado estilos y hecho responsive. Ademas de haber creado un theme para poder manejar los mismos estilos a lo largo de la aplicacion con constantes.
+Hubiera creado las stores detalladas en el punto dos y mostrado en la practica lo desarrollado en el README (empece escribiendo el paso 2 y luego haciendo el paso 3 lo pense pero falta de tiempo). De haberlo hecho hubiera creado al lado de cada usuario un boton con un mas para agregar un libro favorito por medio del id y luego mostrarlos usando el hook de useBooks(id)
+Hubiera agregado en el navbar si estaba loggueado un avatar y si clickeabas este que saliera un tooltip clickeable que diga Loggout, creado la funcion que elimite el token de la sesion y redireccione a la pagina de login.
+Habria creado en vez del Auth provider uno llamado privateRoute para encerrar las rutas solo accesibles si esta logeado el usuario sacando ese if del que no estoy muy feliz 
